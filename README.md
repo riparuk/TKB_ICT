@@ -78,3 +78,6 @@ Ikuti langkah-langkah berikut untuk menginstal proyek ini:
 
 [📂 Lihat Implementasi SiswaController](simple_mhsw/app/Http/Controllers/SiswaController.php) untuk melihat implementasi lebih lanjut.
 
+![Halaman Daftar Siswa](halaman_daftar_siswa.png)
+
+![Halaman Tambah Siswa](halaman_tambah_siswa.png)
