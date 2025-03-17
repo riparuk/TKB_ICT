@@ -13,5 +13,13 @@
     <p><strong>Nama:</strong> {{ $siswa->nama }}</p>
     <p><strong>Tempat Lahir:</strong> {{ $siswa->tempat_lahir }}</p>
     <p><strong>Tanggal Lahir:</strong> {{ $siswa->tanggal_lahir }}</p>
+
+        <!-- Menampilkan Foto Jika Ada -->
+        @if ($siswa->foto)
+        <p><strong>Foto:</strong></p>
+        <img src="{{ public_path('storage/' . $siswa->foto) }}" alt="Foto Siswa" width="150">
+        @else
+        <p><strong>Foto:</strong> Tidak tersedia</p>
+        @endif
 </body>
 </html>
