@@ -12,20 +12,24 @@ Ikuti langkah-langkah berikut untuk menginstal proyek ini:
     ```bash
     git clone https://github.com/riparuk/TKB_ICT.git
     ```
-2. Navigasi ke direktori proyek laravel aplikasi pendaftaran sederhana nya (folder simple_mhsw):
+2. Navigasi ke folder repository:
+    ```bash
+    cd TKB_ICT
+    ```
+3. Navigasi ke direktori proyek laravel aplikasi pendaftaran sederhana nya (folder simple_mhsw):
     ```bash
     cd simple_mhsw
     ```
-3. Instal dependensi menggunakan Composer:
+4. Instal dependensi menggunakan Composer:
     ```bash
     composer install
     ```
-4. Salin file `.env.example` menjadi `.env`:
+5. Salin file `.env.example` menjadi `.env`:
     ```bash
     cp .env.example .env
     ```
 
-5. Konfigurasi Database (MySQL):
+6. Konfigurasi Database (MySQL):
     - Buka file `.env` dan sesuaikan pengaturan database:
       ```ini
       DB_CONNECTION=mysql
@@ -35,19 +39,19 @@ Ikuti langkah-langkah berikut untuk menginstal proyek ini:
       DB_USERNAME=root
       DB_PASSWORD=
       ```
-6. Generate application key:
+7. Generate application key:
     ```bash
     php artisan key:generate
     ```
-7. Jalankan migrasi database:
+8. Jalankan migrasi database:
     ```bash
     php artisan migrate
     ```
-8. Jalankan server Laravel:
+9. Jalankan server Laravel:
     ```bash
     php artisan serve
     ```
-9. Buka browser dan akses `http://localhost:8000`.
+10. Buka browser dan akses `http://localhost:8000`.
 
 ### **📌 Route Web**
 | Method | Endpoint | Deskripsi |
