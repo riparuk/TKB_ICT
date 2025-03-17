@@ -1,5 +1,9 @@
 # simple_mhsw
 
+## Grafik Batang
+- Hasil grafik batang yang dibuat dapat dilihat di [grafik_batang.png](grafik_batang.png).
+- Proses pembuatan grafik menggunakan python dapat dilihat di file jupyter [grafik_batang.ipynb](grafik_batang.ipynb).
+
 ## Instalasi
 
 Ikuti langkah-langkah berikut untuk menginstal proyek ini:
@@ -8,9 +12,9 @@ Ikuti langkah-langkah berikut untuk menginstal proyek ini:
     ```bash
     git clone https://github.com/riparuk/TKB_ICT.git
     ```
-2. Navigasi ke direktori proyek aplikasi pendaftaran sederhana nya:
+2. Navigasi ke direktori proyek laravel aplikasi pendaftaran sederhana nya (folder simple_mhsw):
     ```bash
-    cd TKB_ICT
+    cd simple_mhsw
     ```
 3. Instal dependensi menggunakan Composer:
     ```bash
@@ -68,3 +72,4 @@ Ikuti langkah-langkah berikut untuk menginstal proyek ini:
 [🔗 Lihat API Routes (api.php)](simple_mhsw/routes/api.php) atau [🔗 Lihat Web Routes (web.php)](simple_mhsw/routes/web.php) untuk melihat API route lebih lanjut.
 
 [📂 Lihat Implementasi SiswaController](simple_mhsw/app/Http/Controllers/SiswaController.php) untuk melihat implementasi lebih lanjut.
+
