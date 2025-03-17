@@ -30,7 +30,7 @@ Ikuti langkah-langkah berikut untuk menginstal proyek ini:
     ```
 
 6. Konfigurasi Database (MySQL):
-    - Buka file `.env` dan sesuaikan pengaturan database:
+    - Buka file `.env` dan sesuaikan pengaturan database anda:
       ```ini
       DB_CONNECTION=mysql
       DB_HOST=127.0.0.1
