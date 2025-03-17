@@ -1,4 +1,5 @@
 # simple_mhsw
+Proyek ini adalah aplikasi sederhana berbasis **HTML, CSS, dan Laravel** yang berfokus pada **alur data CRUD** dalam sebuah sistem pendaftaran. Aplikasi ini mencakup fitur seperti **validasi input, manajemen data siswa, serta pembuatan dan pengunduhan laporan dalam bentuk PDF**. 
 
 ## Grafik Batang
 - Hasil grafik batang yang dibuat dapat dilihat di [grafik_batang.png](../grafik_batang.png).
